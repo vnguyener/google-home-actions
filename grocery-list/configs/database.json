@@ -1,0 +1,10 @@
+{
+    "env" :{
+        "dev": {
+            "groceryList": "mongodb://localhost/grocery_list"
+        },
+        "prod": {
+            
+        }
+    }
+}
