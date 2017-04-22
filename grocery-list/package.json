@@ -1,5 +1,5 @@
 {
-  "name": "groceryy-list-action",
+  "name": "grocery-list-action",
   "description": "Grocery List's webhook",
   "version": "0.0.1",
   "private": true,
@@ -10,13 +10,15 @@
   },
   "scripts": {
     "lint": "semistandard --fix \"**/*.js\"",
-    "start": "functions deploy yourAction --trigger-http",
+    "start": "node index.js",
     "deploy": "gcloud beta functions deploy yourAction --trigger-http --stage-bucket <storage_bucket_name>"
   },
   "dependencies": {
     "actions-on-google": "^1.0.0",
     "q": "^1.5.0",
-    "mongoose":"^4.9.5"
+    "mongoose":"^4.9.5",
+    "express": "^4.15.2",
+    "body-parser": "^1.17.1"
   },
   "devDependencies": {
     "semistandard": "^9.1.0"
