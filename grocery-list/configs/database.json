@@ -4,7 +4,7 @@
             "groceryList": "mongodb://localhost/grocery_list"
         },
         "prod": {
-            
+            "groceryList": ""
         }
     }
 }
