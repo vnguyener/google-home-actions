@@ -34,18 +34,19 @@ module.exports = {
 
 function getGroceryList() {
     let deferred = q.defer();
-
+    console.log('START: GET LIST')
     Grocery.find({}, (err, items) => {
-        if (error) {
-            console.log(error);
-            deferred.reject(error);
+        if (err) {
+            console.log(err);
+            deferred.reject(err);
         }
 
         if (items) {
+            console.log(items);
             deferred.resolve(items);
         }
     });
-
+    console.log('END: GET LIST')
     return deferred.promise;
 };
 
