@@ -1,0 +1,37 @@
+{
+  "id": "a9d16de8-b6a2-429b-bbbe-8107dfdc296e",
+  "timestamp": "2017-04-23T14:51:45.629Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Is eggs on the list?",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "grocery": "eggs"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "91d02901-f47e-4269-b271-4648c619b409",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Get Groceries"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 206,
+    "errorType": "partial_content",
+    "errorDetails": "Webhook call failed. Error: Request timeout."
+  },
+  "sessionId": "a8ed310d-7766-4480-83a7-78b14f290dcc"
+}

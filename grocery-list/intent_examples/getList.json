@@ -1,0 +1,41 @@
+{
+  "id": "b73beee0-3860-4b29-af8e-0e66b0b2233d",
+  "timestamp": "2017-04-23T14:25:13.513Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Add eggs, bacon, and milk",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "grocery": [
+        "eggs",
+        "bacon",
+        "milk"
+      ]
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "b21aa226-9b87-452e-b7ce-2aed9ca546f3",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Adding Groceries"
+    },
+    "fulfillment": {
+      "speech": "Added eggs, bacon and milk",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "eggs, bacon and milk Got it!"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 206,
+    "errorType": "partial_content",
+    "errorDetails": "Webhook call failed. Error: Request timeout."
+  },
+  "sessionId": "a8ed310d-7766-4480-83a7-78b14f290dcc"
+}

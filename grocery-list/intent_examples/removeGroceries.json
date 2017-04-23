@@ -1,0 +1,36 @@
+{
+  "id": "a52e4e2a-072e-4824-9b12-9033f9979b8f",
+  "timestamp": "2017-04-23T14:53:18.519Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "I don't need eggs anymore",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "grocery": "eggs"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "3c26d11b-94f8-4508-b5e0-c406958e85a0",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Removing Groceries"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "a8ed310d-7766-4480-83a7-78b14f290dcc"
+}

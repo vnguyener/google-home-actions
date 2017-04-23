@@ -1,0 +1,43 @@
+{
+  "id": "8929545f-852a-4f4d-bc26-a2d549912ef5",
+  "timestamp": "2017-04-23T14:52:37.488Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Start a new list",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "date-period": ""
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "1fc815d1-ab35-45e9-a443-2be34d00fefc",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Clear List"
+    },
+    "fulfillment": {
+      "speech": "I've cleared your list. Want to start a new one?",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I've cleared your list. Want to start a new one?"
+        }
+      ],
+      "data": {
+        "google": {
+          "expect_user_response": false,
+          "is_ssml": false,
+          "no_input_prompts": []
+        }
+      }
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "a8ed310d-7766-4480-83a7-78b14f290dcc"
+}
